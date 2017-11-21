@@ -32,7 +32,16 @@
   <!-- project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" /> -->
   <!-- project path="art" name="LineageOS/android_art" groups="pdk" /> -->
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-7.1" groups="pdk-cw-fs"/>
+  
+  <!-- LG G5 H850 TWRP-Multirom -->
+  <project path="bootable/recovery" name="MultiRom-G5/Team-Win-Recovery-Project" remote="github" revision="android-7.1-mrom"/>
+   <project path="device/lge/h850" name="MultiRom-G5/android_device_lge_h850" remote="github" revision="android-7.1-mrom"/>
+  <project path="system/extras/multirom" name="MultiRom-G5/multirom" remote="github" revision="master"/>
+  <project path="system/extras/libbootimg" name="MultiRom-G5/libbootimg" remote="github" revision="master"/>
+  <project path="system/extras/multirom/kexec-tools" name="MultiRom-G5/kexec-tools" remote="github" revision="master" />
+  <project path="system/extras/multirom/adbd" name="MultiRom-G5/multirom_adbd" remote="github" revision="master" />
+  <!-- End of LG G5 H850 TWRP-Multirom -->
+  
   <!-- project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="dalvik" name="LineageOS/android_dalvik" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="developers/build" name="platform/developers/build" remote="aosp" /> -->
